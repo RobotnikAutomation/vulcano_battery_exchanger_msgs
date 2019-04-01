@@ -1,0 +1,1 @@
+vulcano_battery_exchanger/BatteryExchangerStatus battery_exchanger_status
