@@ -8,6 +8,8 @@ project(vulcano_battery_exchanger_msgs)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED
+  std_msgs
+  std_srvs
   genmsg
   actionlib
   actionlib_msgs
@@ -106,7 +108,7 @@ generate_messages(
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-  INCLUDE_DIRS include
+#  INCLUDE_DIRS include
 #  LIBRARIES vulcano_battery_exchanger_msgs
   CATKIN_DEPENDS std_msgs std_srvs
 #  DEPENDS system_lib
