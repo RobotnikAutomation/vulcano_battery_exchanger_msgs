@@ -18,3 +18,5 @@ bool battery_ready
 
 int32 left_battery_charging_time
 int32 right_battery_charging_time
+
+vulcano_battery_exchanger_msgs/BeaconLightsReq beacon_lights
